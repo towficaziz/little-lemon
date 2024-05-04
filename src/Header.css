@@ -1,0 +1,21 @@
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Logo and navigation take up equal width */
+  /* background-color: #333; */
+  color: white;
+  padding: 20px;
+  width: 1400px;
+  /* background-color: #64806F; */
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  width: 80%;
+  align-items: center; /* Center logo vertically */
+}
+
+.logo img {
+  max-width: 20%; /* Ensure logo does not exceed container width */
+}

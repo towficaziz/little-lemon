@@ -1,0 +1,39 @@
+/* Nav.css */
+
+.nav {
+    display: flex; /* Use flexbox to make items horizontal */
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the <ul> flex container */
+  }
+  
+  .nav li {
+    margin-right: 25px; /* Add spacing between items */
+  }
+  
+  .nav li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  .nav li a:hover {
+    text-decoration: underline;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; /* Horizontally center items */
+    align-content: center; /* Vertically center items */
+    /* height: 100vh; */
+  }
+  
